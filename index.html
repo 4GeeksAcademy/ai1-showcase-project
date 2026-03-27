@@ -4,43 +4,286 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI1 Showcase</title>
-    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      <header class="bg-white shadow">
+    <div
+      class="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"
+    >
+      <header
+        class="bg-slate-800/50 backdrop-blur border-b border-amber-500/20 shadow-lg"
+      >
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <h1 class="text-3xl font-bold text-gray-900">AI1 Showcase</h1>
+          <h1
+            class="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent pb-2"
+          >
+            AI1 Showcase
+          </h1>
         </div>
       </header>
 
       <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <h2
+          class="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent mb-8 pb-2"
+        >
+          KPIs
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mb-12"
+        >
           <div
-            class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
+            class="group bg-slate-700/50 border border-amber-500/30 rounded-lg shadow-lg hover:shadow-2xl hover:border-orange-500/60 transition-all duration-300 backdrop-blur-sm p-6 flex flex-col items-center justify-center min-h-48"
           >
-            <h2 class="text-xl font-semibold text-gray-900 mb-2">
-              Feature One
-            </h2>
-            <p class="text-gray-600">Add your content here</p>
+            <h3
+              class="text-xl sm:text-2xl font-semibold bg-gradient-to-r from-amber-300 to-orange-400 bg-clip-text text-transparent mb-4 pb-2"
+            >
+              KPI 1
+            </h3>
+            <p class="text-4xl sm:text-5xl font-bold text-amber-400">0</p>
           </div>
           <div
-            class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
+            class="group bg-slate-700/50 border border-amber-500/30 rounded-lg shadow-lg hover:shadow-2xl hover:border-orange-500/60 transition-all duration-300 backdrop-blur-sm p-6 flex flex-col items-center justify-center min-h-48"
           >
-            <h2 class="text-xl font-semibold text-gray-900 mb-2">
-              Feature Two
-            </h2>
-            <p class="text-gray-600">Add your content here</p>
+            <h3
+              class="text-xl sm:text-2xl font-semibold bg-gradient-to-r from-amber-300 to-orange-400 bg-clip-text text-transparent mb-4 pb-2"
+            >
+              KPI 2
+            </h3>
+            <p class="text-4xl sm:text-5xl font-bold text-amber-400">0</p>
           </div>
           <div
-            class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
+            class="group bg-slate-700/50 border border-amber-500/30 rounded-lg shadow-lg hover:shadow-2xl hover:border-orange-500/60 transition-all duration-300 backdrop-blur-sm p-6 flex flex-col items-center justify-center min-h-48"
           >
-            <h2 class="text-xl font-semibold text-gray-900 mb-2">
-              Feature Three
-            </h2>
-            <p class="text-gray-600">Add your content here</p>
+            <h3
+              class="text-xl sm:text-2xl font-semibold bg-gradient-to-r from-amber-300 to-orange-400 bg-clip-text text-transparent mb-4 pb-2"
+            >
+              KPI 3
+            </h3>
+            <p class="text-4xl sm:text-5xl font-bold text-amber-400">0</p>
           </div>
+          <div
+            class="group bg-slate-700/50 border border-amber-500/30 rounded-lg shadow-lg hover:shadow-2xl hover:border-orange-500/60 transition-all duration-300 backdrop-blur-sm p-6 flex flex-col items-center justify-center min-h-48"
+          >
+            <h3
+              class="text-xl sm:text-2xl font-semibold bg-gradient-to-r from-amber-300 to-orange-400 bg-clip-text text-transparent mb-4 pb-2"
+            >
+              KPI 4
+            </h3>
+            <p class="text-4xl sm:text-5xl font-bold text-amber-400">0</p>
+          </div>
+        </div>
+
+        <h2
+          class="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent mb-8 pb-2"
+        >
+          Drivers
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          <div
+            class="group bg-slate-700/50 border border-amber-500/30 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl hover:border-orange-500/60 transition-all duration-300 backdrop-blur-sm"
+          >
+            <figure class="m-0 bg-slate-600/50">
+              <img
+                src="https://placehold.co/400x300?text=Cat+Feeding"
+                alt="Cat Feeding"
+                class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </figure>
+            <div class="p-6">
+              <h2
+                class="text-xl sm:text-2xl font-semibold bg-gradient-to-r from-amber-300 to-orange-400 bg-clip-text text-transparent pb-2"
+              >
+                Cat Feeding Amount
+              </h2>
+            </div>
+          </div>
+          <div
+            class="group bg-slate-700/50 border border-amber-500/30 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl hover:border-orange-500/60 transition-all duration-300 backdrop-blur-sm"
+          >
+            <figure class="m-0 bg-slate-600/50">
+              <img
+                src="https://placehold.co/400x300?text=Avg.+Feeding+Delay"
+                alt="Avg. Feeding Delay"
+                class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </figure>
+            <div class="p-6">
+              <h2
+                class="text-xl sm:text-2xl font-semibold bg-gradient-to-r from-amber-300 to-orange-400 bg-clip-text text-transparent pb-2"
+              >
+                Avg. Feeding Delay
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <h2
+          class="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent mb-8 mt-12 pb-2"
+        >
+          Data Entry Form
+        </h2>
+        <div
+          class="bg-slate-700/50 border border-amber-500/30 rounded-lg shadow-lg backdrop-blur-sm p-8 w-full"
+        >
+          <form class="space-y-6">
+            <div>
+              <label
+                for="name"
+                class="block text-sm font-medium text-amber-300 mb-2"
+              >
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                class="w-full px-4 py-2 bg-slate-600/50 border border-amber-500/30 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:border-orange-500/60 transition-colors"
+                placeholder="Enter cat name"
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-amber-300 mb-3">
+                Hunger Level (0-5)
+              </label>
+              <div class="space-y-2">
+                <div class="flex items-center">
+                  <input
+                    type="radio"
+                    id="hunger0"
+                    name="hunger"
+                    value="0"
+                    class="w-4 h-4"
+                  />
+                  <label for="hunger0" class="ml-2 text-white text-sm">
+                    0 - Not Hungry
+                  </label>
+                </div>
+                <div class="flex items-center">
+                  <input
+                    type="radio"
+                    id="hunger1"
+                    name="hunger"
+                    value="1"
+                    class="w-4 h-4"
+                  />
+                  <label for="hunger1" class="ml-2 text-white text-sm">
+                    1
+                  </label>
+                </div>
+                <div class="flex items-center">
+                  <input
+                    type="radio"
+                    id="hunger2"
+                    name="hunger"
+                    value="2"
+                    class="w-4 h-4"
+                  />
+                  <label for="hunger2" class="ml-2 text-white text-sm">
+                    2
+                  </label>
+                </div>
+                <div class="flex items-center">
+                  <input
+                    type="radio"
+                    id="hunger3"
+                    name="hunger"
+                    value="3"
+                    class="w-4 h-4"
+                  />
+                  <label for="hunger3" class="ml-2 text-white text-sm">
+                    3
+                  </label>
+                </div>
+                <div class="flex items-center">
+                  <input
+                    type="radio"
+                    id="hunger4"
+                    name="hunger"
+                    value="4"
+                    class="w-4 h-4"
+                  />
+                  <label for="hunger4" class="ml-2 text-white text-sm">
+                    4
+                  </label>
+                </div>
+                <div class="flex items-center">
+                  <input
+                    type="radio"
+                    id="hunger5"
+                    name="hunger"
+                    value="5"
+                    class="w-4 h-4"
+                  />
+                  <label for="hunger5" class="ml-2 text-white text-sm">
+                    5 - Very Hungry
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div>
+              <label
+                for="quantity"
+                class="block text-sm font-medium text-amber-300 mb-2"
+              >
+                Food Quantity (cups)
+              </label>
+              <input
+                type="range"
+                id="quantity"
+                name="quantity"
+                min="0"
+                max="1"
+                step="0.25"
+                value="0.5"
+                class="w-full"
+              />
+              <div class="text-white text-sm mt-1">
+                <span id="quantity-value">0.5</span> cups
+              </div>
+            </div>
+            <div>
+              <label
+                for="foodType"
+                class="block text-sm font-medium text-amber-300 mb-2"
+              >
+                Food Type
+              </label>
+              <select
+                id="foodType"
+                class="w-full px-4 py-2 bg-slate-600/50 border border-amber-500/30 rounded-lg text-white focus:outline-none focus:border-orange-500/60 transition-colors"
+              >
+                <option value="">Select food type</option>
+                <option value="dry">Dry Food</option>
+                <option value="wet">Wet Food</option>
+                <option value="mixed">Mixed Food</option>
+                <option value="treats">Treats</option>
+              </select>
+            </div>
+            <div>
+              <label
+                for="feedingTime"
+                class="block text-sm font-medium text-amber-300 mb-2"
+              >
+                Feeding Time
+              </label>
+              <input
+                type="datetime-local"
+                id="feedingTime"
+                class="w-full px-4 py-2 bg-slate-600/50 border border-amber-500/30 rounded-lg text-white focus:outline-none focus:border-orange-500/60 transition-colors"
+              />
+            </div>
+            <button
+              type="submit"
+              class="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-slate-900 font-semibold rounded-lg hover:shadow-2xl hover:from-amber-400 hover:to-orange-400 transition-all duration-300"
+            >
+              Submit
+            </button>
+          </form>
+          <script>
+            document.getElementById('quantity').addEventListener('input', function() {
+              document.getElementById('quantity-value').textContent = this.value;
+            });
+          </script>
         </div>
       </main>
     </div>
